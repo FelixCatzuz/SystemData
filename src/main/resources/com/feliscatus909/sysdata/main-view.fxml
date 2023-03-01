@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="473.0" prefWidth="679.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.feliscatus909.sysdata.AppController">
+   <children>
+      <Label fx:id="label_sys" layoutX="14.0" layoutY="40.0" prefHeight="17.0" prefWidth="120.0" text="Windows:">
+         <font>
+            <Font name="Ebrima" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_type" layoutX="14.0" layoutY="90.0" prefHeight="17.0" prefWidth="120.0" text="x32/64/86:">
+         <font>
+            <Font name="Ebrima" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_processor" layoutX="14.0" layoutY="140.0" prefHeight="17.0" prefWidth="120.0" text="CP:">
+         <font>
+            <Font name="Ebrima" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_ram" layoutX="14.0" layoutY="196.0" prefHeight="17.0" prefWidth="120.0" text="Ram:">
+         <font>
+            <Font name="Ebrima" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_imei" layoutX="14.0" layoutY="247.0" prefHeight="17.0" prefWidth="120.0" text="IMEI:">
+         <font>
+            <Font name="Ebrima" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_name" layoutX="14.0" layoutY="299.0" prefHeight="36.0" prefWidth="188.0" text="Им. устройства:">
+         <font>
+            <Font name="Ebrima" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textField_sys" layoutX="202.0" layoutY="46.0" prefHeight="25.0" prefWidth="455.0" />
+      <TextField fx:id="textField_type" layoutX="202.0" layoutY="96.0" prefHeight="25.0" prefWidth="455.0" />
+      <TextField fx:id="textField_processor" layoutX="202.0" layoutY="146.0" prefHeight="25.0" prefWidth="455.0" />
+      <TextField fx:id="textField_ram" layoutX="202.0" layoutY="202.0" prefHeight="25.0" prefWidth="455.0" />
+      <TextField fx:id="textField_imei" layoutX="202.0" layoutY="253.0" prefHeight="25.0" prefWidth="455.0" />
+      <TextField fx:id="textField_name" layoutX="202.0" layoutY="304.0" prefHeight="25.0" prefWidth="455.0" />
+      <Button fx:id="button_check" layoutX="537.0" layoutY="415.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="120.0" text="Проверить">
+         <font>
+            <Font name="Ebrima" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
